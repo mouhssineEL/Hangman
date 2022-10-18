@@ -190,30 +190,10 @@ public class Hangman extends JFrame {
             });}
 	}
 	
-	
-	/*private void guessRight() {
-		System.out.println("guess right");
-	}
-	private void guessWrong() {
-		System.out.println("guess wrong try next time");
-	}*/
 
 
     private void guessRight(JButton btn) {
-       /* String guess = placetofindword.getText();
-        //addGuessToKnownWord(guess);
-        System.out.println(" le contenu de txtfield is :"+guess);
-        String displayString = "";
-        for (int i = 0; i < wordKnown.length(); i++) {
-            displayString += wordKnown.substring(i, i + 1) + " ";
-        }
-        placetofindword.setText(displayString);
-
-        if (wordKnown.indexOf("_") < 0) {
-            JOptionPane.showMessageDialog(this, "You Win!");
-        }
-        placetofindword.setText("");
-        */ 
+      
     	System.out.println("letter selected :"+btn.getText());
 
     	 int index = randomword.indexOf(btn.getText());

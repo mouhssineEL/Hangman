@@ -21,7 +21,6 @@ public class Operation {
         bw.newLine();
         bw.close();
     }
-
      static public String  choiceRandomWord(){
         //choice a random word from file in java?
         final List<String> words = readingFilesInputStream();
