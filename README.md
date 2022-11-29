@@ -1,3 +1,10 @@
 ## Getting Started
-nothing else than having a jdk installed.
-and of course to do RUN.
+# Requirements
+ * java JDK
+ * vscode or eclipse
+ * Swing library installed
+# How to run it 
+* On eclipse
+ + tape run bouton
+* on VSCode
+  + Run code
