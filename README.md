@@ -5,6 +5,6 @@
  * Swing library installed
 # How to run it 
 * On eclipse
- + tape run bouton
+ + RUN the class Hangman.java
 * on VSCode
-  + Run code
+  + RUN the class Hangman.java
