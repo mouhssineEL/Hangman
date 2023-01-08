@@ -118,7 +118,20 @@ public class Hangman extends JFrame {
 		btnNewWord.setBounds(631, 343, 150, 30);
 		btnNewWord.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+                        // Reset the number of incorrect guesses to 0
+            numOfWrongGuesses = 0;
+            // Choose a new random word
+            randomword = Operation.choiceRandomWord();
+            // Update the "The secret word contains n letters!" label to reflect the new word
+            lblInfo.setText("The secret word contains " + randomword.length() + " letters !");
+            // Clear the guess text field
+            placetofindword.setText("");
+            // Reset the displayed score
+            score.setText("0");
+            // Clear the hangman image
+            drawHangmanStand(hangmanImage);
+            // Update the displayed hangman image
+            hangmanPanel.repaint();
 
 			}
 		});
